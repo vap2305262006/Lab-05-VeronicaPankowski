@@ -1,8 +1,15 @@
 li{display: inline-block;
-text-decoration: none;}
+text-decoration: none;
+list-style: none;}
 a{text-decoration: none;
 color: black;}
 div{border-width: 3px;
 border-style: dashed;
 background-color: aqua;
-background-size: cover;}
+background-size: cover;
+height: 50px;
+padding: 10px;
+text-align: center;}
+nav{background-color: orange;
+height: 50px;
+padding: 10px;}
