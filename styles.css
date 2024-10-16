@@ -1,15 +1,94 @@
 li{display: inline-block;
 text-decoration: none;
-list-style: none;}
+list-style: none;
+margin-right: 30px;
+padding: 10px;}
+
 a{text-decoration: none;
 color: black;}
-div{border-width: 3px;
+
+.practice{border-width: 3px;
 border-style: dashed;
 background-color: aqua;
 background-size: cover;
 height: 50px;
+width: 20%;
 padding: 10px;
-text-align: center;}
+text-align: center;
+margin-bottom: 20px;
+}
+
 nav{background-color: orange;
-height: 50px;
-padding: 10px;}
+height: 80px;}
+
+.box{width: 300px;
+height: 200px;
+background-color: blue;
+color: blanchedalmond;
+margin-bottom: 20px;}
+
+.responsive-box{width: 50%;
+    height: 50%;
+background-color: blueviolet;
+color: white;}
+
+.padded-text{background-color: brown; 
+    color: beige;
+padding: 20px;
+margin-top: 20px;}
+
+.custom-padding{background-color: rgb(208, 43, 226);
+color: blanchedalmond;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 20px;}
+
+.border-box{background-color: rgb(127, 191, 255);
+color: beige;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+margin-top: 20px;}
+
+.rounded-border{border-style: dotted;
+border-color: red;
+border-width: 3px;
+border-radius: 15px;
+margin-top: 20px;}
+
+.margin-text{background-color: rgb(0, 89, 255);
+color: blanchedalmond;
+margin: 300px;}
+
+.custom-margin{margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 40px;
+margin-right: 40px;
+background-color: rgb(194, 80, 190);
+color: blanchedalmond;}
+
+.inline-element{background-color: rgb(94, 82, 82); 
+    color: blanchedalmond;
+display: inline;}
+
+.block-element{display:block;
+background-color: rgb(95, 180, 228);}
+
+.inline-block-element{display: inline-block;
+background-color: rgb(80, 178, 80);}
+
+.hidden-element{display: none;}
+
+.visible-element{visibility: visible;
+margin: 20px;}
+
+.invisible-element{visibility: hidden;
+margin: 50px;}
+
+.transparent-box{background-color: blue;
+opacity: 0.5;}
+
+
+
